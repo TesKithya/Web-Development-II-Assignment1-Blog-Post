@@ -1,0 +1,32 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.post {
+  background: #f8f8f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px 20px;
+}
+
+.post h2 {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  margin-right: 6px;
+}
